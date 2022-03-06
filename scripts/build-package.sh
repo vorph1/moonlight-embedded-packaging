@@ -3,7 +3,7 @@ set -e
 # Check out the source
 [[ ! -z "$COMMIT" ]] || COMMIT="master"
 echo "Checking out $COMMIT"
-git clone https://github.com/moonlight-stream/moonlight-embedded.git
+git clone https://github.com/vorph1/moonlight-embedded.git
 cd moonlight-embedded
 git checkout $COMMIT
 git log -1
